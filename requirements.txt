@@ -1,0 +1,5 @@
+openai==0.28.0
+streamlit==1.26.0
+tiktoken==0.5.1
+pymilvus==2.3.0
+pandas==2.1.1
