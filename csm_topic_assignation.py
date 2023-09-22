@@ -10,6 +10,7 @@ import pandas as pd
 
 QA_COLLECTION = "question_answer_openai_emb"
 tk_emb = tiktoken.encoding_for_model("text-embedding-ada-002")
+st.set_page_config(layout="wide")
 
 
 def num_emb_tokens(text):
